@@ -25,7 +25,7 @@ In Picking Mode, servo carrying the camera start in sweeping position and take p
 if py-cam code detect object with predefine red color threshold, then servo carrying the laser pin point move to proximity target and calculate the distance
 then acquired distance transfer to py-arm code to move the arm in the clipper position and cut the branch, then folded picked fruit to the basket
 in next step if can't find any target in the sweeping, then commences the movement  
-
+![..](https://github.com/mkeyno/Small-Raspberry-Picker-Robot/blob/master/resources/picking.png) 
 ## Robot parts  ## 
 
 This robot can have up to 4 independent picking subsystem, each comprise of robot arm, camera, camera tilt, TOF precise distance sensor, laser pin point and li-po battery 
