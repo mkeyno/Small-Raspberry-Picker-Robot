@@ -35,3 +35,7 @@ for forward/backward movement this robot utilizes ultra sonique sensor. main cor
 
 
 
+
+
+
+This project is licensed under the GNU General Public License, version 3.
