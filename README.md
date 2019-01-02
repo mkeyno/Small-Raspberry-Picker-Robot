@@ -6,4 +6,12 @@ following images are took from conceptional design
 
 ## Project Motivation ##
 This idea came to mind when I was working in Raspberry farm in Auckland, due to bush form of plants is really hard and frustrating for worker to keep always bending. so I decided to start designing robot which is small enough to go through lane and yet affordable for farmers
-Although yet there is couple of companies who made robot for piking fruit utilizing image processing but all have huge size and very expensive and only work for tree form plants. so I come to this point robot shold be small enough so can easily move throght in lane with size of maximom 40 cm 
+Although yet there is couple of companies who made robot for piking fruit utilizing image processing but all have huge size and very expensive and only work for tree form plants. so I come to this point robot should be small enough so can easily move through in lane with size of maximum 40 cm 
+
+## Project description ##
+
+OpenCV is very popular open source image processor with c++ core code which can run and warped in different platform such as Java, Python, as we use Raspberry pi as core processor board thus I choose python programing
+under the Linux environment. it is easy to install and programing on Raspberry pi boards, but as it may take long time to installation , I suggest use at least version 3 and about. here is to good site
+for [installation](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/) and [programing](https://pythonprogramming.net/raspberry-pi-camera-opencv-face-detection-tutorial/) under python script  
+ 
+ ![o-p]( https://github.com/mkeyno/Small-Raspberry-Picker-Robot/resources/python.jpg)
