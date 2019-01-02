@@ -14,4 +14,4 @@ OpenCV is very popular open source image processor with c++ core code which can 
 under the Linux environment. it is easy to install and programing on Raspberry pi boards, but as it may take long time to installation , I suggest use at least version 3 and about. here is to good site
 for [installation](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/) and [programing](https://pythonprogramming.net/raspberry-pi-camera-opencv-face-detection-tutorial/) under python script  
  
- ![o-p]( https://github.com/mkeyno/Small-Raspberry-Picker-Robot/resources/python.jpg)
+[ ![o-p](https://github.com/mkeyno/Small-Raspberry-Picker-Robot/blob/master/resources/python.jpg)]
