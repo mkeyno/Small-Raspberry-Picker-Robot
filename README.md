@@ -14,4 +14,13 @@ OpenCV is very popular open source image processor with c++ core code which can 
 under the Linux environment. it is easy to install and programing on Raspberry pi boards, but as it may take long time to installation , I suggest use at least version 3 and about. here is to good site
 for [installation](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/) and [programing](https://pythonprogramming.net/raspberry-pi-camera-opencv-face-detection-tutorial/) under python script  
  
+## Robot function algorithm  ## 
+
+
+primarily scheme is performed in two mode, Calibration mode & Picking Mode
+In Calibration mode leaser pin point location has been calibrated with tip of gripper attached to end of robot arm, so in case of any object detection, target coordinate has been calculated under minimum precision  
+In Picking Mode, servo carrying the camera start in sweeping position and take picture every 15 degree and set the flag to fed by py-cam image processing code 
+if py-cam code detect object with predefine red color threshold, then servo carrying the laser pin point move to proximity target and calculate the distance
+then acquired distance transfer to py-arm code to move the arm in the clipper position and cut the branch , then folded picked fruit to the basket
+in next step if can't find any target in the sweeping,then commences the movement  
 
