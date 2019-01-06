@@ -1,5 +1,5 @@
 
-#Fruit Detection 
+#Fruit Detection #
 
 
    The simplest code to catch the ripe red  berry fruit video frame in OpenCV and turn it to HSV format.then grab the upper and lower      bounds of the color we would like to detect. In this case, we choose the values from yellow/red-ish to completely red.
