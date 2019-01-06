@@ -26,6 +26,19 @@ if py-cam code detect object with predefine red color threshold, then servo carr
 then acquired distance transfer to py-arm code to move the arm in the clipper position and cut the branch, then folded picked fruit to the basket
 in next step if can't find any target in the sweeping, then commences the movement  
 ![..](https://github.com/mkeyno/Small-Raspberry-Picker-Robot/blob/master/resources/picking.png) 
+
+
+- firmware sub algorithm Design:
+  - ***Fruit Detection***:   
+   The simplest code to catch the ripe red  berry fruit video frame in OpenCV and turn it to HSV format.then grab the upper and lower      bounds of the color we would like to detect. In this case, we choose the values from yellow/red-ish to completely red.
+   We create a numpy array containing these and create mask to catch perfect color, but this simple approach prone to undesirable          result, that's my many object detection  followed by **deep learning** module in OpenCV
+  
+  
+  - ***Reference Detection***:   
+  - ***Robot Gripper Movement***:   
+  - ***Drone Movement***:   
+  - ***Remote WebServer Configuration***:   
+  
 ## Robot parts  ## 
 
 This robot can have up to 4 independent picking subsystem, each comprise of robot arm, camera, camera tilt, TOF precise distance sensor, laser pin point and li-po battery 
