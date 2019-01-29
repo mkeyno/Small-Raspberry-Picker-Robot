@@ -14,6 +14,10 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/mkeyno/Small-Raspberry-Picker-Robot/blob/master/firmware/OpenCV",
     packages=setuptools.find_packages(),
+    install_requires=[
+          'numpy',
+          'cv2',
+      ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
