@@ -12,6 +12,7 @@ Although yet there is couple of companies who made robot for piking fruit utiliz
 
 ## Project description ##
  ![-](https://github.com/mkeyno/Small-Raspberry-Picker-Robot/blob/master/resources/python.jpg) 
+ ![-](https://github.com/mkeyno/Small-Raspberry-Picker-Robot/blob/master/resources/ros.jpg) 
 OpenCV is very popular open source image processor with c++ core code which can run and warped in different platform such as Java, Python, as we use Raspberry pi as core processor board thus I choose python programing
 under the Linux environment. it is easy to install and programing on Raspberry pi boards, but as it may take long time to installation, I suggest use at least version 3 and about. here is to good site
 for [installation](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/) and [programing](https://pythonprogramming.net/raspberry-pi-camera-opencv-face-detection-tutorial/) under python script  
