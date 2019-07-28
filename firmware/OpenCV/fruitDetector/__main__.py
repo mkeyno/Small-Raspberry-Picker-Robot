@@ -11,13 +11,13 @@ import tensorflow as tf
 import sys
 import platform
 
+import winApp
 
 def main():
     """Read the Real Python article feed"""
     print(sys.argv) 
-    windows=win.Tk()
-    windows.title(__version__)
-    windows.mainloop()
+    winApp.config()
+    winApp.run()
 
 if __name__ == "__main__":
     main()
